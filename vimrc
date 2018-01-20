@@ -43,10 +43,12 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-"
+
+" Vim appearance
 colorscheme jellybeans
 set number
 syntax on
-set guifont=Hack:h20
+set guifont=Hack:h14
 
+" Netrw
 let g:netrw_list_hide='.*\.pyc$,.*\.swp$,.*__pycache__$,.*\.out$'
