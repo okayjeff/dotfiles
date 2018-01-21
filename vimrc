@@ -49,9 +49,14 @@ colorscheme jellybeans
 set number
 syntax on
 set guifont=Hack:h14
+:set showcmd  " Show keystrokes
 
 " Tabs
 set tabstop=4 shiftwidth=4 expandtab
 
 " Netrw
 let g:netrw_list_hide='.*\.pyc$,.*\.swp$,.*__pycache__$,.*\.out$'
+
+" Completor
+let g:completor_python_binary = '~/venv/bin/python'
+let g:completor_clang_binary = '/usr/bin/clang'
