@@ -1,0 +1,13 @@
+{
+    "editor.fontSize": 14,
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+    "search.exclude": {
+        "**/__pycache__": true,
+        "**/.idea": true,
+        "**/.tox": true,
+        "**/htmlcov": true,
+        "**/py3": true
+    }
+}
